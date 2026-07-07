@@ -1,6 +1,6 @@
 # Zui PCAP Investigation Cheatsheet
 
-A defensive SOC/DFIR cheatsheet for investigating PCAP files in Zui using Zeek, Suricata, and Zed queries.
+A SOC/DFIR cheatsheet for investigating PCAP files in Zui using Zeek, Suricata, and Zed queries.
 
 ## Purpose
 
@@ -23,7 +23,7 @@ This repository provides a practical analyst reference for offline PCAP investig
 
 This cheatsheet is intended for passive/offline packet analysis only.
 
-Do not browse, curl, ping, resolve live, authenticate to, or otherwise contact suspicious or malicious domains, IPs, URLs, FTP servers, or C2 infrastructure observed in PCAP evidence. Use the packet capture, local logs, offline artifacts, and trusted threat-intelligence portals without directly interacting with attacker infrastructure.
+When handling malicious PCAP files, do not browse, curl, ping, resolve live, authenticate to, or otherwise contact suspicious or malicious domains, IPs, URLs, FTP servers, or C2 infrastructure observed in PCAP evidence. Use the packet capture, local logs, offline artifacts, and trusted threat-intelligence portals without directly interacting with attacker infrastructure.
 
 ## Cheatsheet
 
@@ -34,11 +34,7 @@ See:
 ## Intended Audience
 
 - SOC analysts
-- MDR analysts
-- Threat hunters
-- DFIR analysts
-- Malware traffic analysts
-- Security students practicing PCAP investigation
+- CyberSecurity students practicing PCAP investigation
 
 ## Disclaimer
 
