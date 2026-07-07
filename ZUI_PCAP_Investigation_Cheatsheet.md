@@ -2,9 +2,6 @@
 
 This cheatsheet is for offline/passive PCAP analysis in Zui using Zeek, Suricata, and Zed queries.
 
-Important safety rule:
-Do not browse, curl, ping, resolve, authenticate to, or otherwise contact suspicious domains, IPs, URLs, FTP servers, or C2 infrastructure observed in a PCAP. Treat the PCAP as evidence and keep analysis passive/offline.
-
 ## 1. Basic Zui Workflow
 
 1. Open Zui.
@@ -620,7 +617,6 @@ Alert Signatures:
 Files / Hashes:
 Exfiltration Evidence:
 C2 / Beaconing Evidence:
-Limitations:
 Final Assessment:
 Recommended Actions:
 ```
